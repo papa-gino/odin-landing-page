@@ -62,13 +62,50 @@ body {
     flex: 1;
 }
 
+.information {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
 img {
     display: block;
     max-height: 300px;
 }
 
+
+.image > img {
+    width: 125px;
+    height: 125px;
+    border: 4px solid #3882f6;
+    border-radius: 15px;
+    padding: 8px;
+}
+
 .content {
-    flex-grow: 2;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 36px;
+    gap: 36px;
+}
+
+.media {
+    display: flex;
+    gap: 48px;
+}
+
+.image {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 150px;
+}
+
+.text {
+    text-align: center;
 }
 
 .quote {
@@ -102,4 +139,5 @@ button {
    border-style: none;
    color: #e5e7eb;
    padding: 4px 24px;
+   font-weight: bold;
 }
