@@ -1,0 +1,105 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 100vh;
+    font-family: "Roboto";
+}
+
+/* div {
+    border: 1px solid red;
+} */
+
+.header {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    background-color: #1F2937;
+    padding: 0 15%;
+    justify-content: space-evenly;
+}
+
+.header-links {
+    display: flex;
+    justify-content: space-between;
+    flex: .5;
+}
+
+.hero-subtext, a {
+    color: #e5e7eb;
+}
+
+.hero-text, .logo {
+    color: #f9faf8;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.hero-text {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-subtext {
+    font-size: 18px;
+}
+
+.hero {
+    display: flex;
+    gap: 16px;
+    justify-content: space-between;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    max-width: 720px;
+    gap: 8px;
+    flex: 1;
+}
+
+img {
+    display: block;
+    max-height: 300px;
+}
+
+.content {
+    flex-grow: 2;
+}
+
+.quote {
+    flex-grow: 2;
+}
+
+.banner {
+    flex-grow: 1.5;
+}
+
+.footer {
+    height: 72px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 8px;
+}
+
+a {
+    font-size: 18px;
+    text-decoration: none;
+}
+
+button {
+   background-color: #3882f6;
+   border-radius: 8px;
+   border-style: none;
+   color: #e5e7eb;
+   padding: 4px 24px;
+}
